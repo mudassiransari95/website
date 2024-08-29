@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color {
+  color: #3B3663;
+}
+.gredient {
+  background-image: linear-gradient(to right,blue,red);
+}
+
+.hightone {
+  width: 48rem;
+  height: 48rem;
+  
+}
+
+.text {
+  color: #6EC1E4;
+  
+}
+.circle {
+  width: 37rem;
+  height: 37rem;
+}
+.hover:hover{
+  background-color: #ff7426;
+}
+
+/* 
+  @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  } */
